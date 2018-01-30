@@ -7,12 +7,20 @@ package uk.nhs.scot.tayside.githubtest;
 
 /**
  *
- * @author hmacmillan
+ * @author hugh
  */
-public class NewClass {
+public class Example {
     
-    public static void main(String[] args) {
-        System.out.println("test output");
+    
+    private String message;
+
+    public String getMessage() {
+        return message;
     }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+    
     
 }
